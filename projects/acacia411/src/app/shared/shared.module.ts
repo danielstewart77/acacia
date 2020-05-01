@@ -3,8 +3,10 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
-
-
+import { MatCardModule } from '@angular/material/card';
+import { MatDividerModule } from '@angular/material/divider'
+import { MatGridListModule } from '@angular/material/grid-list'
+import { MatIconModule } from '@angular/material/icon'
 
 @NgModule({
   declarations: [],
@@ -15,7 +17,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
     // material
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule,
+    MatDividerModule,
+    MatGridListModule,
+    MatIconModule
   ],
   exports: [
     // vendor
@@ -24,7 +30,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
     // material
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule,
+    MatDividerModule,
+    MatGridListModule,
+    MatIconModule
   ]
 })
 export class SharedModule { }
