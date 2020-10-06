@@ -1,0 +1,28 @@
+$mat-dark: (
+50: rgb(90, 90, 90),
+100: rgb(90, 90, 90),
+200: rgb(90, 90, 90),
+300: #E0E0E0,
+400: #BDBDBD,
+500: rgb(90, 90, 90),
+600: #757575,
+700: #616161,
+800: #424242,
+900: #212121,
+contrast: (
+    50: $black-87-opacity,
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: white,
+    600: white,
+    700: white,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+    A100: $black-87-opacity,
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);

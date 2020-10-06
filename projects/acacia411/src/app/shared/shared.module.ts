@@ -4,9 +4,10 @@ import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
-import { MatDividerModule } from '@angular/material/divider'
-import { MatGridListModule } from '@angular/material/grid-list'
-import { MatIconModule } from '@angular/material/icon'
+import { MatDividerModule } from '@angular/material/divider';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatIconModule } from '@angular/material/icon';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [],
@@ -14,6 +15,7 @@ import { MatIconModule } from '@angular/material/icon'
     // vendor
     CommonModule,
     RouterModule,
+    ReactiveFormsModule,
 
     // material
     MatButtonModule,
